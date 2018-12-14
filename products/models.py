@@ -15,7 +15,7 @@ class Product(models.Model):
     def __str__(self):
         return self.title
 
-    def summmary(self):
+    def summary(self):
         return self.body[:100]
 
     def pub_date_pretty(self):
